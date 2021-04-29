@@ -15,24 +15,24 @@ const Home = () => {
 
     return(
         <>
-        <div class="row">
+        <div className="row">
             <div id="text">
                 <h3>Me Too!</h3>
             </div>
         </div>
 
 
-            {/* <form onSubmit={ handleDoomSubmit }>
+            <form onSubmit={ handleDoomSubmit }>
                 <button id="submitButton" type="submit">submit</button>
-            </form> */}
+            </form> 
 
 
 
-            {/* <ul>
+             <ul>
                 {
                     selector.bands.map( band => <li key={ band.id }>{ band.name }</li>) 
                 }
-            </ul> */}
+            </ul>
        </> 
         
     )
