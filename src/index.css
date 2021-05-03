@@ -41,6 +41,7 @@ body {
   font-family: 'Metal Mania', cursive;
   font-size:90px;
   text-shadow: 0 0 3px white, 0 0 5px #0000FF;
+  text-align: center;
 }
 
 #button{
@@ -58,21 +59,7 @@ body {
   font-family: 'Metal Mania', cursive;
   font-size:90px;
   text-shadow: 0 0 3px white, 0 0 5px #0000FF;
+  text-align: center;
 }
 
-@media(max-width: 767px) {
-	#banner {
-    font-size:80px;
-    text-align: center;
-    text-shadow: 0 0 3px white, 0 0 5px #0000FF;
-  }
-  
-  #button {
-      font-size:50px;
-	}
-
-  #band {
-    text-shadow: 0 0 3px white, 0 0 5px #0000FF;
-  }
-}
 
