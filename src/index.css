@@ -21,6 +21,7 @@ body {
 #banner {
   font-family: 'Metal Mania', cursive;
   font-size:8vw;
+  text-shadow: 1px 1px #FF0000;
 }
 
 /* .container {
@@ -56,11 +57,12 @@ body {
   font-size:large;
   font-family: 'Metal Mania', cursive;
   font-size:8vw;
+  text-shadow: 1px 1px #FF0000;
 }
 
 @media(max-width: 767px) {
 	#button {
-      font-size:xx-large;
+      font-size:xx-large; 
 	}
 }
 
