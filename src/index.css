@@ -35,7 +35,6 @@ body {
   justify-content:center;
 }
 
-
 .horizontal-center {
   margin-left:auto;
   margin-right:auto;
@@ -45,6 +44,7 @@ body {
   margin-top: 30px;
   font-family: 'Metal Mania', cursive;
   font-size:2vw;
+  min-height: 35px;
 }
 
 #band {
@@ -56,5 +56,11 @@ body {
   font-size:large;
   font-family: 'Metal Mania', cursive;
   font-size:8vw;
+}
+
+@media(max-width: 767px) {
+	#button {
+      font-size:xx-large;
+	}
 }
 
