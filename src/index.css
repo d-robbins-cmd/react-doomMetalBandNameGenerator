@@ -18,11 +18,7 @@ body {
 
 
 
-#banner {
-  font-family: 'Metal Mania', cursive;
-  font-size:8vw;
-  text-shadow: 1px 1px #FF0000;
-}
+
 
 /* .container {
   height: 200px;
@@ -41,11 +37,16 @@ body {
   margin-right:auto;
 }
 
+#banner {
+  font-family: 'Metal Mania', cursive;
+  font-size:90px;
+  text-shadow: 0 0 3px white, 0 0 5px #0000FF;
+}
+
 #button{
   margin-top: 30px;
   font-family: 'Metal Mania', cursive;
-  font-size:2vw;
-  min-height: 35px;
+  font-size: 50px;
 }
 
 #band {
@@ -54,15 +55,24 @@ body {
   margin:auto;
   display:flex;
   justify-content: center;
-  font-size:large;
   font-family: 'Metal Mania', cursive;
-  font-size:8vw;
-  text-shadow: 1px 1px #FF0000;
+  font-size:90px;
+  text-shadow: 0 0 3px white, 0 0 5px #0000FF;
 }
 
 @media(max-width: 767px) {
-	#button {
-      font-size:xx-large; 
+	#banner {
+    font-size:80px;
+    text-align: center;
+    text-shadow: 0 0 3px white, 0 0 5px #0000FF;
+  }
+  
+  #button {
+      font-size:50px;
 	}
+
+  #band {
+    text-shadow: 0 0 3px white, 0 0 5px #0000FF;
+  }
 }
 
