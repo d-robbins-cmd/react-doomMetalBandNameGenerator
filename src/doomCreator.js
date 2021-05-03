@@ -10,7 +10,7 @@ export const doomCreator = () => {
         'electric', 'bong', 'wizard', 'witch','mountain', 'acid',
         'black','weed', 'doom', 'throne', 'goat', 'sleep', 
         'pot', 'sword', 'skull', 'ghost', 'wolf', 'hunter',
-        'ripper'
+        'ripper', 'necromancer', 'dark', 'corpse'
     ]
 
     do {
