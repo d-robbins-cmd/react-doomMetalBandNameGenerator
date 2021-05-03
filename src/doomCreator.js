@@ -9,7 +9,8 @@ export const doomCreator = () => {
     const wordBank = [
         'electric', 'bong', 'wizard', 'witch','mountain', 'acid',
         'black','weed', 'doom', 'throne', 'goat', 'sleep', 
-        'pot', 'sword', 'skull', 'ghost', 'wolf', 'hunter'
+        'pot', 'sword', 'skull', 'ghost', 'wolf', 'hunter',
+        'ripper'
     ]
 
     do {
