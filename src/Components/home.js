@@ -14,27 +14,19 @@ const Home = () => {
     }
 
     return(
-        <>
-        <div className="row">
-            <div id="text">
-                <h3>Me Too!</h3>
-            </div>
-        </div>
-
-
-            <form onSubmit={ handleDoomSubmit }>
-                <button id="submitButton" type="submit">submit</button>
+        <div id="container">
+            <div className="vertical-center">
+                <div id="banner">Doom metal band generator</div>
+            </div>  
+            <form className="form" onSubmit={ handleDoomSubmit }>
+                <div className="col text-center">
+                    <button id="button" className="btn btn-dark" type="submit">generate</button>
+                </div>
             </form> 
-
-
-
-             <ul>
-                {
-                    selector.bands.map( band => <li key={ band.id }>{ band.name }</li>) 
-                }
-            </ul>
-       </> 
         
+            <h1 id="band">{ selector.name }</h1>
+           
+        </div>
     )
 }
 

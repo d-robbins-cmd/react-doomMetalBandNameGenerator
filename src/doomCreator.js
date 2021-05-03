@@ -9,7 +9,7 @@ export const doomCreator = () => {
     const wordBank = [
         'electric', 'bong', 'wizard', 'witch','mountain', 'acid',
         'black','weed', 'doom', 'throne', 'goat', 'sleep', 
-        'pot', 'sword', 'skull', 'ghost', 'wolf'
+        'pot', 'sword', 'skull', 'ghost', 'wolf', 'hunter'
     ]
 
     do {
@@ -25,7 +25,11 @@ export const doomCreator = () => {
 const generateFirstName = w => {
 
     let firstName = ''
-    firstName =  generateWord( w )
+
+    do{
+        firstName =  generateWord( w )
+    } while ( firstName === 'hunter' ) 
+
     return firstName
 
 }
