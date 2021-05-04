@@ -1,6 +1,8 @@
 import { useSelector, useDispatch } from 'react-redux'
 import { MAKE_BAND } from '../types'
 import 'bootstrap/dist/css/bootstrap.css'
+import ReactAudioPlayer from 'react-audio-player'
+import mp3_file from '../audio/doom.mp3';
 
 
 const Home = () => {
@@ -16,10 +18,10 @@ const Home = () => {
     return(
         <div id="container">
 
-
-        <audio src='../audio/doom.mp3' autoPlay loop type="audio"></audio>
-
-
+            <ReactAudioPlayer
+                src={ mp3_file }
+                autoPlay
+            />
 
             <div className="vertical-center">
                 <div id="banner">Doom metal band generator</div>
