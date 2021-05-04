@@ -20,7 +20,7 @@ const Home = () => {
 
             <ReactAudioPlayer
                 src={ mp3_file }
-                autoPlay
+                autoPlay loop
             />
 
             <div className="vertical-center">
