@@ -63,3 +63,11 @@ body {
 }
 
 
+@media only screen and (max-width: 600px) {
+  #banner {
+    font-size:60px;
+  }
+  #band{
+    font-size:60px;
+  }
+}

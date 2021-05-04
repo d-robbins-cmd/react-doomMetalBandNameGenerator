@@ -42,7 +42,7 @@ const generateSecondName = w => {
 
     do {
         secondName = generateWord( w )
-    } while ( secondName === 'electric' || secondName === 'black' )
+    } while ( secondName === 'electric' || secondName === 'black' || secondName === 'dark' )
 
     return secondName
 }

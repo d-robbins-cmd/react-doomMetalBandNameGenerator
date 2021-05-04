@@ -15,6 +15,12 @@ const Home = () => {
 
     return(
         <div id="container">
+
+
+        <audio src='../audio/doom.mp3' autoPlay loop type="audio"></audio>
+
+
+
             <div className="vertical-center">
                 <div id="banner">Doom metal band generator</div>
             </div>  
