@@ -10,7 +10,8 @@ export const doomCreator = () => {
         'electric', 'bong', 'wizard', 'witch','mountain', 'acid',
         'black','weed', 'doom', 'throne', 'goat', 'sleep', 
         'pot', 'sword', 'skull', 'ghost', 'wolf', 'hunter',
-        'ripper', 'necromancer', 'dark', 'corpse'
+        'ripper', 'necromancer', 'dark', 'corpse', 'smoker', 'cauldron',
+        'dope'
     ]
 
     do {
@@ -30,7 +31,8 @@ const generateFirstName = w => {
 
     do{
         firstName =  generateWord( w )
-    } while ( firstName === 'hunter' ) 
+    } while ( firstName === 'hunter' || firstName === 'smoker' || firstName === 'cauldron'
+    || firstName === 'ripper') 
 
     return firstName
 
